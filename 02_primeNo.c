@@ -1,4 +1,5 @@
 #include<stdio.h>
+
 void main()
 {
     int num,count=0, i;

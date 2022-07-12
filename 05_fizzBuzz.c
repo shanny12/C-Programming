@@ -1,9 +1,10 @@
 #include<stdio.h>
-void main()
+#include<stdlib.h>
+
+void main(int argc, char *argv[])
 {
     int range;
-    printf("enter the range");
-    scanf("%d",&range);
+    range = atoi(argv[1]);
     for(int i=1;i<range;i++){
         if(i%3==0)
             printf("fizz\n");
